@@ -1,0 +1,171 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
+  --first-color: #826042;
+  --black-color: #01060a;
+  --text-color-light: #c9c2ba;
+  --body-color: #0b1517;
+  --container-color: #131b1b;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Lato", sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+
+h1,
+h2,
+h3,
+p {
+  line-height: 140%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*=============== Navbar ===============*/
+#nav-bar {
+  border-bottom: 1px solid var(--first-color);
+}
+
+.navbar-brand img {
+  width: 50%;
+}
+
+.nav-link {
+  color: var(--first-color);
+  margin-right: 1.8rem;
+}
+
+.nav-link:hover {
+  color: rgb(130, 96, 66);
+  text-decoration: underline;
+}
+
+.navbar-light .nabar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%130, 96, 66,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  color: rgb(130, 96, 66, 0.5);
+}
+
+/*=============== Home Section ===============*/
+#booking-section {
+  margin-top: 4rem;
+}
+.booking {
+  min-height: 16rem;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking-img {
+  padding: 1.25rem;
+  background-color: var(--container-color);
+  max-width: 50rem;
+  border-radius: 0.6rem;
+  margin: auto;
+  display: flex;
+}
+
+.booking .booking-img-holder {
+  width: 80%;
+}
+
+img {
+  width: 95%;
+}
+
+h2 {
+  color: var(--first-color);
+  margin-bottom: 0.1rem;
+}
+
+.form-group{
+  margin-top: 2.8rem;
+}
+
+.form-control{
+  background-color: transparent;
+  border: none;
+  color: var(--text-color-light);
+  margin-bottom: 0.5rem;
+}
+
+::placeholder{
+ color: var(--text-color-light)  !important; 
+}
+
+.booking-btn {
+  padding: 0.2rem 0.6rem;
+  border-radius: 1rem;
+  background-color: var(--first-color);
+  color: var(--text-color-light);
+  font-size: 0.8rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.booking-btn:hover{
+  box-shadow: inset 0 0 0 2px var(--first-color);
+  background-color: transparent;
+  transition: all .4s;
+}
