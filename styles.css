@@ -69,10 +69,12 @@ button {
   cursor: pointer;
 }
 
-
 /*=============== Navbar ===============*/
 #nav-bar {
   border-bottom: 1px solid var(--first-color);
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .navbar-brand img {
@@ -167,20 +169,20 @@ h2 {
 }
 
 /*=============== Specialties Section ===============*/
-.specialties-section{
-margin-top: 5rem;  
+.specialties-section {
+  margin-top: 5rem;
 }
 
-.specialties-heading{
+.specialties-heading {
   margin-bottom: 1rem;
 }
 
-.specialties-paragraph{
+.specialties-paragraph {
   color: var(--text-color-light);
   font-size: 0.8rem;
 }
 
-.specialties-btn{
+.specialties-btn {
   padding: 0.2rem 0.6rem;
   border-radius: 1rem;
   background-color: var(--first-color);
@@ -193,10 +195,10 @@ margin-top: 5rem;
   margin-top: 2rem;
 }
 
-.specialties-btn:hover{
+.specialties-btn:hover {
   box-shadow: inset 0 0 0 2px var(--first-color);
   background-color: transparent;
-  transition: all 0.4s; 
+  transition: all 0.4s;
 }
 
 /*=============== images Section ===============*/
@@ -213,30 +215,30 @@ margin-top: 5rem;
 }
 
 /*=============== Menu Section ===============*/
-.main-heading{
-margin-top: 5rem;
+.main-heading {
+  margin-top: 5rem;
 }
-.container-menu{
+.container-menu {
   margin-top: 3rem;
 }
 
-.menu-heading{
+.menu-heading {
   margin-bottom: 0.8rem;
   color: var(--first-color);
 }
 
-.menu-price{
+.menu-price {
   font-size: 1rem;
   font-weight: bold;
 }
 
-.menu-item-description{
+.menu-item-description {
   color: var(--text-color-light);
   font-size: 0.8rem;
   margin-bottom: 1.8rem;
 }
 
-.menu-btn{
+.menu-btn {
   padding: 0.2rem 0.6rem;
   border-radius: 1rem;
   background-color: var(--first-color);
@@ -249,15 +251,15 @@ margin-top: 5rem;
   margin-top: 2rem;
 }
 
-.menu-btn:hover{
+.menu-btn:hover {
   box-shadow: inset 0 0 0 2px var(--first-color);
   background-color: transparent;
-  transition: all 0.4s; 
+  transition: all 0.4s;
 }
 
 /*=============== image Section ===============*/
-.container-image-border{
-margin-top: 5rem;
+.container-image-border {
+  margin-top: 5rem;
 }
 
 /*=============== Contact Section ===============*/
@@ -266,7 +268,7 @@ margin-top: 5rem;
   margin-bottom: 2rem;
 }
 
-.container-contact{
+.container-contact {
   color: var(--text-color-light);
   margin-bottom: 5rem;
   line-height: 2;

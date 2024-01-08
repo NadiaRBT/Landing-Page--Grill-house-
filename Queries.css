@@ -1,0 +1,58 @@
+@media screen and (max-width: 320px){
+.home-image{
+ width: 0%;
+}
+
+.form-group{
+ margin-right: 2.5rem;
+}
+
+.specialties-paragraph{
+  font-size: 0.6rem;
+}
+
+.menu-item{
+  font-size: 0.6rem;
+}
+
+.menu-item-description{
+  font-size: 0.6rem;
+}
+
+.border-image{
+  width: 100%;
+}
+
+.contact{
+  font-size: 0.6rem;
+}
+}
+
+@media screen and (min-width: 576px){
+ .home-image{
+  height: 100%;
+ } 
+
+ .border-image{
+  width: 100%;
+ }
+}
+
+@media screen and (min-width: 767px){
+   .border-image{
+  width: 100%;
+ }
+}
+
+@media screen and (min-width: 1040px){
+   .border-image{
+  width: 100%;
+ }
+}
+
+@media screen and (min-width: 1700px){
+  .image-section{
+ width: 150%;
+  }
+
+}
